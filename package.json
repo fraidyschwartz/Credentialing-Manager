@@ -1,0 +1,22 @@
+{
+  "name": "doctor-insurance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-promise-router": "^1.1.1",
+    "knex": "^0.13.0",
+    "mysql": "^2.13.0"
+  }
+}
